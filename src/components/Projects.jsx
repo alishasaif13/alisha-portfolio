@@ -6,13 +6,13 @@ const Projects = () => {
       title: "Smart Healthcare System (FYP)",
       desc: "Hospital management system including pharmacy, appointments, reports, and more.",
       img: "/fyp.png",
-      link: "https://github.com/alishasaif13",
+      link: "https://github.com/alishasaif13/portfolio/tree/main/fyp-smart-healthcare-system",
     },
     {
       title: "Ecommerce Full-Stack (Web Application)",
       desc: "Built a full-stack ecommerce web app using the MERN stack with authentication and payment integration.",
       img: "/fullstack.png",
-      link: "https://github.com/alishasaif13/-ecommerce-fullstack-design",
+      link: "https://ecommerce-fullstack-design-git-main-khadijas-projects-ba11f857.vercel.app?_vercel_share=K9CL952Oy90jdvFpIvoNFqI3cFgxg6YK",
     },
     {
       title: "Amazon Clone (Frontend Web Project)",
@@ -24,7 +24,7 @@ const Projects = () => {
       title: "Beauty Products E-Commerce UI",
       desc: "Designed a responsive beauty products UI using modern UI/UX principles.",
       img:"/ui.png",
-      link: "https://github.com/alishasaif13",
+      link: "https://store-xz22.vercel.app/",
     },
   ];
 

@@ -1,4 +1,5 @@
-import Navbar from "./Components/Navbar";
+import Navbar from "./Components/Navbar.jsx";
+
 import About from "./Components/About";
 import Education from "./Components/Education";
 import Skills from "./Components/Skills";
@@ -9,14 +10,14 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div  >
-      <Navbar/>
+    <div>
+      <Navbar />
       <About />
       <Education />
       <Skills />
-      <Projects/>
+      <Projects />
       <Experience />
-      <Contact/>
+      <Contact />
       <Footer />
     </div>
   );
