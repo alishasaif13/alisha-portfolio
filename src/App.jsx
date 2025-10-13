@@ -9,7 +9,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="px-4  sm:mx-w-xl mx:auto x:auto md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl" >
+    <div  >
       <Navbar/>
       <About />
       <Education />

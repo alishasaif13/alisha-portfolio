@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,20 +14,22 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed w-full top-0 left-0 z-50 bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo / Name */}
-        <h1 className="text-2xl font-bold tracking-wide text-indigo-600">
-          Alisha <span className="text-gray-800">Saif</span>
-        </h1>
+    <nav className="backdrop-blur-lg bg-[#0A0F1F]/70 border-b border-[#1F2937] text-gray-200 fixed w-full z-50 shadow-[0_0_10px_#A855F733]">
+      <div className="py-4 px-6 flex justify-between items-center">
+        
+        {/* Left - Logo */}
+        <a href="/" className="flex items-center space-x-2">
+          <img src="/logo.png" alt="Logo" className="h-14 w-17  " />
+          <span className="text-xl font-bold tracking-wide"></span>
+        </a>
 
-        {/* Desktop Menu */}
+        {/* Desktop Links */}
         <ul className="hidden md:flex space-x-8">
           {navLinks.map((nav, index) => (
             <li key={index}>
               <a
                 href={nav.link}
-                className="text-gray-700 font-medium hover:text-indigo-600 transition-all duration-300"
+                className="font-medium hover:text-[#A855F7] transition-all duration-300 hover:tracking-wide hover:drop-shadow-[0_0_10px_#A855F7]"
               >
                 {nav.name}
               </a>
@@ -34,9 +37,19 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* Mobile Toggle Button */}
+        {/* Social Icons */}
+        <div className="hidden md:flex space-x-4 items-center">
+          <a href="https://linkedin.com" target="_blank" className="hover:text-[#A855F7] hover:drop-shadow-[0_0_10px_#A855F7] text-xl transition-all">
+            <FaLinkedin />
+          </a>
+          <a href="https://github.com" target="_blank" className="hover:text-[#A855F7] hover:drop-shadow-[0_0_10px_#A855F7] text-xl transition-all">
+            <FaGithub />
+          </a>
+        </div>
+
+        {/* Mobile Toggle */}
         <button
-          className="md:hidden text-gray-700 focus:outline-none"
+          className="md:hidden text-white text-2xl"
           onClick={() => setIsOpen(!isOpen)}
         >
           ☰
@@ -45,20 +58,17 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <ul className="md:hidden bg-white shadow-lg px-6 pb-4">
+        <ul className="md:hidden bg-[#0A0F1F]/90 backdrop-blur-lg px-6 pb-4 space-y-2 text-center">
           {navLinks.map((nav, index) => (
-            <li key={index} className="py-2">
+            <li key={index}>
               <a
                 href={nav.link}
-                className="text-gray-700 font-medium hover:text-indigo-600 transition-all duration-300"
+                className="block py-2 hover:text-[#A855F7] hover:drop-shadow-[0_0_10px_#A855F7] transition-all duration-300"
                 onClick={() => setIsOpen(false)}
               >
                 {nav.name}
               </a>
-              <li><a href="#contact">Contact</a></li>
-
             </li>
-            
           ))}
         </ul>
       )}
