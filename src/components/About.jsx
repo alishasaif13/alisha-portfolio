@@ -59,7 +59,7 @@ const About = () => {
             </a>
             <a
               href="#contact"
-              className="px-6 py-3 border border-[#14B8A6] text-[#14B8A6] rounded-lg hover:bg-[#14B8A6] hover:text-white hover:shadow-[0_0_15px_#14B8A6] transition duration-300"
+              className="px-6 py-3 border border-[#8B5CF6] text-[#8B5CF6] rounded-lg hover:bg-[#8B5CF6] hover:text-white hover:shadow-[0_0_15px_#14B8A6] transition duration-300"
             >
               Contact Me
             </a>

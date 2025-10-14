@@ -53,7 +53,7 @@ const Contact = () => {
         </div>
 
         <p className="text-gray-400 mt-8">
-          📩 <span className="text-[#A855F7] font-medium">alishasaif132@gmail.com</span>
+          📩 <span className="text-[#A855F7] font-medium">alisha.saif456@gmail.com </span>
         </p>
       </div>
     </section>

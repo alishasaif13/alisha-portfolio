@@ -50,7 +50,7 @@ const Skills = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, delay: index * 0.05 }}
               className="px-5 py-2 bg-[#111827] border border-[#1F2937] text-gray-300 rounded-full shadow-md 
-              hover:border-[#14B8A6] hover:shadow-[0_0_15px_#14B8A6] hover:text-white transition-all duration-300 cursor-pointer"
+              hover:border-[#8B5CF6] hover:shadow-[0_0_15px_#14B8A6] hover:text-white transition-all duration-300 cursor-pointer"
             >
               {skill}
             </motion.span>
@@ -98,7 +98,7 @@ const Skills = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, delay: index * 0.05 }}
               className="px-5 py-2 bg-[#111827] border border-[#1F2937] text-gray-300 rounded-full shadow-md 
-              hover:border-[#14B8A6] hover:shadow-[0_0_15px_#14B8A6] hover:text-white transition-all duration-300 cursor-pointer"
+              hover:border-[#8B5CF6] hover:shadow-[0_0_15px_#14B8A6] hover:text-white transition-all duration-300 cursor-pointer"
             >
               {skill}
             </motion.span>
