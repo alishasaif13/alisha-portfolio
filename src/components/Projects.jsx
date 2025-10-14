@@ -12,7 +12,7 @@ const Projects = () => {
       title: "Ecommerce Full-Stack (Web Application)",
       desc: "Built a full-stack ecommerce web app using the MERN stack with authentication and payment integration.",
       img: "/fullstack.png",
-      link: "https://ecommerce-fullstack-design-git-main-khadijas-projects-ba11f857.vercel.app?_vercel_share=K9CL952Oy90jdvFpIvoNFqI3cFgxg6YK",
+      link: "https://ecommerce-fullstack-design-two.vercel.app/",
     },
     {
       title: "Amazon Clone (Frontend Web Project)",
