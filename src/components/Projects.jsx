@@ -26,6 +26,12 @@ const Projects = () => {
       img:"/ui.png",
       link: "https://store-xz22.vercel.app/",
     },
+    {
+      title: "Almahdia Fashion App",
+      desc: "Developed a modern and responsive fashion e-commerce website with a stylish UI and smooth user experience.",
+      img:"/almahdia.png",
+      link: "http://almahdia-fashion-app.vercel.app",
+    },
   ];
 
   return (

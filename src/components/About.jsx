@@ -46,7 +46,7 @@ const About = () => {
 
           {/* BUTTONS */}
           <motion.div
-            className="mt-8 flex gap-4"
+            className="mt-8 flex flex-wrap gap-4"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
@@ -57,16 +57,26 @@ const About = () => {
             >
               View Projects
             </a>
+
             <a
               href="#contact"
-              className="px-6 py-3 border border-[#8B5CF6] text-[#8B5CF6] rounded-lg hover:bg-[#8B5CF6] hover:text-white hover:shadow-[0_0_15px_#14B8A6] transition duration-300"
+              className="px-6 py-3 border border-[#8B5CF6] text-[#8B5CF6] rounded-lg hover:bg-[#8B5CF6] hover:text-white hover:shadow-[0_0_15px_#8B5CF6] transition duration-300"
             >
               Contact Me
+            </a>
+
+            <a
+              href="https://drive.google.com/file/d/1fJwQQXRjtN4Ihzs62E24SUVuuSYu5Xym/view?usp=drivesdk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 border border-[#8B5CF6] text-[#8B5CF6] rounded-lg hover:bg-[#8B5CF6] hover:text-white hover:shadow-[0_0_15px_#8B5CF6] transition duration-300"
+            >
+              View CV
             </a>
           </motion.div>
         </motion.div>
 
-        {/* RIGHT IMAGE SECTION WITH ANIMATION */}
+        {/* RIGHT IMAGE SECTION */}
         <motion.div
           className="flex justify-center"
           initial={{ opacity: 0, scale: 0.8 }}
