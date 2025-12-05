@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Experience = () => {
   const expData = [
     {
-      role: "MERN Stack Developer (Intern OnSite)",
+      role: "MERN Stack Developer",
       company: "Technic Mentor Software House",
       companyUrl: "https://technicmentors.com/",
       duration: "August 2025 - Present",
@@ -21,7 +21,7 @@ const Experience = () => {
     {
       role: "Web Development (Intern Remote)",
       company: "Developer.hub",
-      companyUrl: "https://www.upwork.com/nx/find-work/best-matches", 
+      companyUrl: "https://developershubcorp.com/", 
       duration: " June 2025 - August 2025",
       desc: "Learned core frontend technologies and built multiple responsive landing pages.",
       certificate: "/developer.jpeg", 
